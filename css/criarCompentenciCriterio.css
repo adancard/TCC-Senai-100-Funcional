@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fadeIn {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+body {
+    background-color: rgb(38, 35, 33);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    height: 70px;
+    border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+    padding: 15px;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(90vh - 70px);
+    /* Ajusta para considerar o header */
+    flex-direction: row;
+    width: 100%;
+}
+
+nav {
+    margin: 0 100px;
+}
+
+article {
+    margin: 0 100px;
+}
+
+section .caixaBotao {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 20px 0;
+    align-items: center;
+}
+
+section .caixaBotao input[type='submit'] {
+    margin: 5px;
+}
+
+section .caixaBotao input[type='text'] {
+    width: 100%;
+}
+
+section .caixaTexto {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+section .caixaTexto input[type='submit'] {
+    width: 100%;
+    background-color: rgb(166, 18, 31);
+    color: white;
+    margin: 20px 0;
+}
+
+section .caixaTexto input[type='text'] {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(217, 217, 217);
+}
+
+section .caixaTexto input[type='text']::placeholder {
+    color: black;
+}
+
+nav h3 {
+    color: white;
+}
+
+.botao {
+    background-color: rgb(160, 160, 160);
+    margin: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.botaoConfirmar {
+    background-color: rgb(160, 160, 160);
+    margin: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.botaoConfirmar:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+article h3 {
+    color: white;
+    text-align: center;
+}
+
+.caixa {
+    margin-left: 0 20px;
+
+}
+
+.selects {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 20px 0;
+    align-items: center;
+}
+
+article .selects .caixaSelecao {
+    background-color: rgb(160, 160, 160);
+    margin: 5px;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.botaoDesejavel {
+    background-color: rgb(166, 18, 31);
+    color: white;
+    margin: 0 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.botaoDesejavel:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.DesejavelCritica {
+    display: flex;
+    width: 100%;
+}

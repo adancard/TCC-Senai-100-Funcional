@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.conteudo {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.fadeIn {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+.caixalogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundoLogin {
+    background-color: brown;
+    width: 70%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.inputs {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.inputs input {
+    margin: 15px;
+    height: 40px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.textoLogin {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.BtnLogin {
+    width: 50%;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
